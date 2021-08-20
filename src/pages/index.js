@@ -240,6 +240,27 @@ const Page = () => (
           <IndexCard iconName={iconNames.MODULE} headingText="Extensions">
             <IndexCardLink to="/postgis/latest">PostGIS</IndexCardLink>
           </IndexCard>
+
+          <IndexCard
+            iconName={iconNames.HANDSHAKE}
+            headingText="Third Party Integrations"
+          >
+            <IndexCardLink to="/partner_docs/LiquibaseGuide">
+              Liquibase Pro
+            </IndexCardLink>
+            <IndexCardLink to="/partner_docs/NutanixGuide">
+              Nutanix AHV
+            </IndexCardLink>
+            <IndexCardLink to="/partner_docs/RepostorGuide">
+              Repostor Data Protector for PostgreSQL
+            </IndexCardLink>
+            <IndexCardLink to="/partner_docs/Swarm64Guide">
+              Swarm64 DA
+            </IndexCardLink>
+            <IndexCardLink to="/partner_docs/ThalesGuide">
+              Thales CipherTrust Transparent Encryption
+            </IndexCardLink>
+          </IndexCard>
         </div>
 
         <hr />
